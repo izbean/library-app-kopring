@@ -26,7 +26,7 @@ class UserLoanHistory(
                 user: User,
                 bookName: String = "이상한 나라의 엘리스",
                 status: UserLoanStatus = UserLoanStatus.LOANED,
-                id: Long?
+                id: Long? = null
         ): UserLoanHistory {
             return UserLoanHistory(
                     user = user,
